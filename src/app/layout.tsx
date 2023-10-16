@@ -1,7 +1,7 @@
 "use client"
 import Navbar from '@/components/Navbar'
 import './globals.css'
-import 'animate.css/animate.min.css'; // Import the animate.css file
+import 'animate.css/animate.min.css'; 
 import { VT323 } from 'next/font/google'
 import { AOSInit } from '../aos'
 import Sidebar from '@/components/Sidebar'
