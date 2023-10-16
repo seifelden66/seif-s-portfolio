@@ -1,0 +1,70 @@
+[
+    {
+        "skill": "HTML",
+        "logo": "html.png"
+    },
+    {
+        "skill": "CSS",
+        "logo": "css.png"
+    },
+    {
+        "skill": "RESPONSIVE DDESIGN",
+        "logo": "responsive.png"
+    },
+    {
+        "skill": "SASS",
+        "logo": "sass.png"
+    },
+    {
+        "skill": "TAILWIND",
+        "logo": "tailwind.png"
+    },
+    {
+        "skill": "JAVASCRIPT",
+        "logo": "js.png"
+    },
+    {
+        "skill": "TYPESCRIPT",
+        "logo": "ts.png"
+    },
+    {
+        "skill": "REACT",
+        "logo": "react.png"
+    },
+    {
+        "skill": "NEXT",
+        "logo": "next.png"
+    },
+    {
+        "skill": "REDUX",
+        "logo": "redux.png"
+    },
+    {
+        "skill": "VUE",
+        "logo": "vue.png"
+    },
+    {
+        "skill": "GIT",
+        "logo": "git.png"
+    },
+    {
+        "skill": "GITHUB",
+        "logo": "github.png"
+    },
+    {
+        "skill": "RESTful APIs",
+        "logo": "rest.png"
+    },
+    {
+        "skill": "GRAPHQL APIs",
+        "logo": "graphql.png"
+    },
+    {
+        "skill": "SQL",
+        "logo": "sql.png"
+    },
+    {
+        "skill": "MONGODB",
+        "logo": "mong.png"
+    }
+]

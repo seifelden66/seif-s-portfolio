@@ -2,26 +2,41 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
+@layer utilities {
+  .clip-polygon {
+    clip-path: polygon(0 1%, 100% 0, 100% 90%, 0% 100%);
+  }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+  .clip-pentagon {
+    clip-path: polygon(0 10%, 100% 0, 100% 100%, 66% 95%, 0 100%);
+  }
+  .skills{
+    clip-path: polygon(36% 1%, 82% 1%, 100% 0, 100% 100%, 0 100%, 0 0);
+  }
+  .projects{
+    clip-path: polygon(100% 0, 100% 99%, 76% 100%, 51% 97%, 0 100%, 0 0);
   }
 }
 
+@import 'animate.css';
+
+@import '../../node_modules/animate.css/animate.css';
+
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  background-color: #212020;
+  color: #d2c96c
+}
+
+.cont {
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.animate__fadeInRight {
+  animation-duration: 0.5s;
+}
+
+.animate__fadeOutRight {
+  animation-duration: 0.5s;
 }

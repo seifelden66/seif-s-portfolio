@@ -1,0 +1,52 @@
+[
+    {
+        "title": "HUMM_SITE_CLONE",
+        "id":1,
+        "image":"humm.jpeg",
+        "demo":"hummclone.netlify.app/en",
+        "code":"https://github.com/seifelden66/humm-clone/",
+        "description": "Humm is a website that provides information about food and lifestyle. This website contains : The recipes section features a variety of recipes, The articles section features articles about food, cooking, and lifestyle, and It has a variety of programs that help people to cook, and eat healthier ",
+        "technologies":[
+            "",
+            ""
+        ]
+    },
+    {
+        "title": "ROCKAL_SITE_CLONE",
+        "id":2,
+        "image":"rockal.jpeg",
+        "demo":"https://roaring-buttercream-8dd33a.netlify.app/en",
+        "code":"https://github.com/seifelden66/rockal-clone",
+        "description": "The Rockal website provides information about the company’s 50+ products, services, and 20+ certifications. The blog section features 100+ articles about insulations and construction.",
+        "technologies":[
+            "",
+            ""
+        ]
+    },
+    {
+        "title": "MULTISTEP_FORM",
+        "id":3,
+        "image":"form.jpeg",
+        "demo":"https://effulgent-rugelach-6e2d19.netlify.app/",
+        "code":"https://github.com/seifelden66/multistep-form",
+        "description": "A task from Frontend Mentor website, this project involves a 4-step process including Personal Information, Shipping Information, Payment Information, and Confirmation. It resulted in a 25% increase in form completion rates",
+        "technologies":[
+            "",
+            ""
+        ]
+    },
+    {
+        "title": "WHERE IN THE WORLD",
+        "id":4,
+        "image":"world.jpeg",
+        "demo":"https://main--silver-alfajores-508c73.netlify.app/",
+        "code":"https://github.com/seifelden66/frontendmonetor-countries",
+        "description": " Another task from Frontend Mentor website, this project provides information about 200+ countries, including their capitals, borders, and flags. It includes a dark mode feature and content-based filtering option for enhanced user customization.",
+        "technologies":[
+            "",
+            ""
+        ]
+    }
+    
+    
+]
