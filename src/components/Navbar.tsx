@@ -19,12 +19,12 @@ const Navbar = () => {
                     <h1 className="text-sm md:text-lg text-white">web_developer</h1>
                 </div>
                 <div id="right" className="hidden md:flex gap-5">
-                    <Link href="https://seifs.netlify.app//#hero" >_HOME</Link>
-                    <Link href="https://seifs.netlify.app//#about" >_ABOUT</Link>
-                    <Link href="https://seifs.netlify.app//#skills" >_SKILLS</Link>
-                    <Link href="https://seifs.netlify.app//#projects" >_PROJECTS</Link>
-                    <Link href="https://seifs.netlify.app/#contact" >_CONTACT</Link>
-                    
+                    <a href="#hero" >_HOME</a>
+                    <a href="#about" >_ABOUT</a>
+                    <a href="#skills" >_SKILLS</a>
+                    <a href="#projects" >_PROJECTS</a>
+                    <a href="#contact" >_CONTACT</a>
+
                 </div>
                 <div className="md:hidden cursor-pointer" onClick={handleOpenSidebar}>
                     <GiHamburgerMenu />

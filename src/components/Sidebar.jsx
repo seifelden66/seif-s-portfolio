@@ -1,7 +1,6 @@
 import { useSelector, useDispatch } from 'react-redux';
 import { closeSidebar } from '../Redux/slices/sidebarSlice';
 import { useState } from 'react';
-import Link from "next/link"
 import {AiOutlineCloseCircle} from 'react-icons/ai'
 
 function Sidebar() {
