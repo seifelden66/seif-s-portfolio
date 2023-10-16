@@ -63,7 +63,7 @@ const Contact = () => {
 
     <div className=" h-screen flex items-center">
       <div className="cont" data-aos="fade-in" data-aos-duration="450" data-aos-delay="50">
-        <div className="text-center">
+        <div className="text-center mb-4">
           <h1 className="text-3xl">contact me</h1>
         </div>
         <div className="grid md:grid-cols-[.8fr,.8fr] md:gap-16">

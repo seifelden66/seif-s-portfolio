@@ -2,7 +2,7 @@ const About = () => {
     return (
         <div className="cont flex flex-col gap-20 justify-center text-base md:text-xl h-screen" >
             <div data-aos="zoom-in" data-aos-duration="450" data-aos-delay="50">
-                <div className="text-6xl  text-center"><p>ABOUT_ME</p></div>
+                <div className="text-6xl  text-center mb-4"><p>ABOUT_ME</p></div>
                 <div className='md:grid md:grid-cols-[3fr,.5px,3fr] md:gap-6'>
                     <div className="">
                         <p className=''>

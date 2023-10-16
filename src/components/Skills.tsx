@@ -3,7 +3,7 @@ import data from '../skills.json'
 const Skills = () => {
   return (
     <div id="skills" className='skills py-4 min-h-screen bg-stone-950 flex items-center'>
-      <div className='cont'>
+      <div className='cont data-aos="fade-in" data-aos-duration="450" data-aos-delay="50"'>
         <div className="text-center text-2xl md:text-5xl">SKILLS_AND_TOOLS</div>
         <div className="text-center text-xl">The skills, tools and technologies I use to bring your products to life:</div>
         <div className=''>
