@@ -31,6 +31,7 @@ function Sidebar() {
         </div>
         <Link href="#hero" >_HOME</Link>
         <Link href="#about" >_ABOUT</Link>
+        <Link href="#skills" >_SKILLS</Link>
         <Link href="#projects" >_PROJECTS</Link>
         <Link href="#contact" >_CONTACT</Link>
         

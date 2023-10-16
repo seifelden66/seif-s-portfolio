@@ -19,11 +19,12 @@ const Navbar = () => {
                     <h1 className="text-sm md:text-lg text-white">web_developer</h1>
                 </div>
                 <div id="right" className="hidden md:flex gap-5">
-                    <Link href="#hero" >_HOME</Link>
-                    <Link href="#about" >_ABOUT</Link>
-                    <Link href="#skills" >_SKILLS</Link>
-                    <Link href="#projects" >_PROJECTS</Link>
-                    <Link href="#contact" >_CONTACT</Link>
+                    <Link href="/#hero" >_HOME</Link>
+                    <Link href="/#about" >_ABOUT</Link>
+                    <Link href="/#skills" >_SKILLS</Link>
+                    <Link href="/#projects" >_PROJECTS</Link>
+                    <Link href="/#contact" >_CONTACT</Link>
+                    
                 </div>
                 <div className="md:hidden cursor-pointer" onClick={handleOpenSidebar}>
                     <GiHamburgerMenu />
