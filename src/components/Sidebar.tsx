@@ -5,7 +5,7 @@ import { useState } from 'react';
 import Link from "next/link"
 
 function Sidebar() {
-  const isOpen = useSelector((state) => state.sidebar.isOpen);
+  const isOpen = useSelector((state) => state?.sidebar.isOpen);
   const dispatch = useDispatch();
   const [isClosing, setIsClosing] = useState(false);
 

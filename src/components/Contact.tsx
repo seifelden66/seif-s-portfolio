@@ -8,27 +8,27 @@ import { AiFillGithub } from 'react-icons/ai'
 import { AiOutlineLinkedin } from 'react-icons/ai'
 
 const Contact = () => {
-  const form = useRef();
-  const [errors, setErrors] = useState({});
+  const form = useRef<HTMLFormElement | null>(null);
+  const [errors, setErrors] = useState<{ [key: string]: string }>({});
 
   const validateForm = () => {
     let valid = true;
-    const newErrors = {};
+    const newErrors: { [key: string]: string } = {};
 
-    if (form.current && (form.current as any).user_name?.value.trim() === '') {
+    if (form.current && (form.current.user_name as HTMLInputElement)?.value.trim() === '') {
       newErrors.name = 'Name is required';
       valid = false;
     }
   
     // Validate email
     const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-    if (form.current && (form.current as any).email?.value.trim() === '' || !emailRegex.test((form.current as any).email?.value.trim())) {
+    if (form.current && !emailRegex.test((form.current.email as HTMLInputElement)?.value.trim())) {
       newErrors.email = 'Invalid email address';
       valid = false;
     }
   
     // Validate message
-    if (form.current && (form.current as any).message?.value.trim() === '') {
+    if (form.current && (form.current.message as HTMLTextAreaElement)?.value.trim() === '') {
       newErrors.message = 'Message is required';
       valid = false;
     }
@@ -37,10 +37,10 @@ const Contact = () => {
     return valid;
   };
 
-  const sendEmail = (e) => {
+  const sendEmail = (e: React.FormEvent) => {
     e.preventDefault();
 
-    if (validateForm()) {
+    if (validateForm() && form.current) {
       emailjs
         .sendForm(
           'service_i11hp9a',
@@ -50,7 +50,7 @@ const Contact = () => {
         )
         .then(
           (result) => {
-            form.current.reset();
+            form.current?.reset();
             setErrors({});
           },
           (error) => {
@@ -59,7 +59,6 @@ const Contact = () => {
         );
     }
   };
-
   return (
 
     <div className=" h-screen flex items-center">
