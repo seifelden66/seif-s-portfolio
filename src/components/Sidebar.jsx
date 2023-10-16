@@ -29,11 +29,11 @@ function Sidebar() {
         <div className='cursor-pointer text-red-600 text-4xl hover:scale-105 transition' onClick={handleCloseSidebar}>
           <AiOutlineCloseCircle />
         </div>
-        <Link href="#hero" >_HOME</Link>
-        <Link href="#about" >_ABOUT</Link>
-        <Link href="#skills" >_SKILLS</Link>
-        <Link href="#projects" >_PROJECTS</Link>
-        <Link href="#contact" >_CONTACT</Link>
+        <Link href="https://seifs.netlify.app/#hero" >_HOME</Link>
+        <Link href="https://seifs.netlify.app/#about" >_ABOUT</Link>
+        <Link href="https://seifs.netlify.app/#skills" >_SKILLS</Link>
+        <Link href="https://seifs.netlify.app/#projects" >_PROJECTS</Link>
+        <Link href="https://seifs.netlify.app/#contact" >_CONTACT</Link>
         
       </div>
     </aside>
