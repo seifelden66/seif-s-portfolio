@@ -15,20 +15,20 @@ const Contact = () => {
     let valid = true;
     const newErrors = {};
 
-    if (form.current && form.current.user_name && form.current.user_name.value.trim() === '') {
+    if (form.current && (form.current as any).user_name?.value.trim() === '') {
       newErrors.name = 'Name is required';
       valid = false;
     }
-
+  
     // Validate email
     const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-    if (form.current && form.current.email && !emailRegex.test(form.current.email.value.trim())) {
+    if (form.current && (form.current as any).email?.value.trim() === '' || !emailRegex.test((form.current as any).email?.value.trim())) {
       newErrors.email = 'Invalid email address';
       valid = false;
     }
-
+  
     // Validate message
-    if (form.current && form.current.message && form.current.message.value.trim() === '') {
+    if (form.current && (form.current as any).message?.value.trim() === '') {
       newErrors.message = 'Message is required';
       valid = false;
     }
