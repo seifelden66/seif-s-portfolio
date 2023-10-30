@@ -21,7 +21,7 @@ const Projects = () => {
                                         <div className="text-left">{i.description}</div>
                                         <div className="flex flex-col gap-6">
                                             <Link className="bg-red-600 hover:bg-red-700 transition rounded p-2" href={i.demo}>LIVE_DEMO</Link>
-                                            <Link className="bg-red-600 hover:bg-red-700 transition rounded p-2" href="#">SHOW_CODE</Link>
+                                            <Link className="bg-red-600 hover:bg-red-700 transition rounded p-2" href={i.code}>SHOW_CODE</Link>
                                         </div>
                                     </div>
                                 </div>
