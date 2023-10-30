@@ -24,8 +24,21 @@
         ]
     },
     {
-        "title": "MULTISTEP_FORM",
+        "title": "SPACE_TOURISM_LANNDING_PAGE",
         "id":3,
+        "image":"space.jpeg",
+        "demo":"https://candid-sundae-e41eac.netlify.app/",
+        "code":"https://github.com/seifelden66/space-tourism",
+        "description": "A task from Frontend Mentor website, this project contains info about space tours and some pioneers.",
+        "technologies":[
+            "",
+            ""
+        ]
+    },
+ 
+    {
+        "title": "MULTISTEP_FORM",
+        "id":4,
         "image":"form.jpeg",
         "demo":"https://effulgent-rugelach-6e2d19.netlify.app/",
         "code":"https://github.com/seifelden66/multistep-form",
@@ -37,7 +50,7 @@
     },
     {
         "title": "WHERE IN THE WORLD",
-        "id":4,
+        "id":5,
         "image":"world.jpeg",
         "demo":"https://main--silver-alfajores-508c73.netlify.app/",
         "code":"https://github.com/seifelden66/frontendmonetor-countries",
